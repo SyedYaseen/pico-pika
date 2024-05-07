@@ -29,7 +29,6 @@ wlan.active(True)
 
 try:
     ssid = 'PHILIP'
-    password = 'IRRAGLI1'
     wlan.connect(ssid, password)
     print("Connected to wifi")
 except Exception as e:
